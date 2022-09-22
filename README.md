@@ -32,35 +32,12 @@
 
 <h2 id="features">✔️ Features</h2>
 
-👤 Login/Cadastro
-- [] O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço
-- [] Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara
-- [] Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes
+👤 Login/Cadastro ✔️
+🔎 Busca e seleção de restaurantes ✔️
+🗒️ Cardápio do restaurante ✔️
+🛒 Carrinho e finalizar compra ✔️
+✏️ Perfil, editar perfil e histórico de pedidos ✔️
 
-🔎 Busca e seleção de restaurantes
-- [] O usuário deve ser capaz de visualizar uma lista com todos os restaurantes
-- [] O usuário deve ser capaz de buscar um restaurante por nome
-- [] O usuário deve ser capaz de filtrar os restaurantes por categoria
-- [] O usuário deve ser capaz de clicar no card de um restaurante para visualizar a tela com seu cardápio
- 
-🗒️ Cardápio do restaurante:
-- [] Informações do restaurante (foto, nome, tipo, tempo de entrega, frete e endereço);
-- [] Visualizar os pratos do restaurante, divididos em categorias (principais, acompanhamento);
-- [] Visualizar as informações de cada prato (foto, nome, descrição e preço);
-- [] Adicionar pratos no carrinho e selecionar a quantidade de cada item.
-
-🛒 Carrinho e finalizar compra:
-- [] Visualizar a lista de itens que adicionou ao carrinho;
-- [] Caso o usuário não tenha adicionado nenhum item, deverá ver uma mensagem de "Carrinho Vazio";
-- [] Visualizar, no topo da tela, o endereço de entrega;
-- [] Visualizar o preço total da compra, calculado corretamente de acordo com o preço e quantidade de cada item adicionado;
-- [] Selecionar uma forma de pagamento dentre as opções de dinheiro e cartão de crédito;
-- [] Concluir um pedido;
-- [] Quando o usuário conclui um pedido, um card de "Pedido em andamento" é aberto no início da página onde se encontra as listas de restaurantes.
-
-✏️ Perfil, editar perfil e histórico de pedidos:
-- [] Visualizar seus dados pessoais e endereço e editá-los. Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário recebe uma mensagem de erro clara;
-- [] Visualizar o seu histórico de pedidos concluídos.
 
  
  <h2 id="tecnologias">🛠 Tecnologias</h2>
