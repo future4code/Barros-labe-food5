@@ -1,22 +1,21 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "../pages/login/index"
-import Home from "../pages/home/index"
-import Pedido from "../pages/pedidoemandamento/index"
-import Perfil from "../pages/perfil/index"
-import Restaurantes from "../pages/perfil/index"
-import Buscar from "../pages/search/index"
+import Login from "../Pages/LoginPage";
+import Home from "../Pages/HomePage";
+import Pedido from "../Pages/PedidoEmAndamentoPage";
+import Perfil from "../Pages/PerfilPage";
+import Restaurantes from "../Pages/RestaurantesPage";
 
 const Rotas = ()=> {
       return (  
 <BrowserRouter>
   <Routes>
-      <Route index element={<Login/>}/>
-      <Route path="/home" element={<Home/>}/>
+      <Route index element={<Home/>}/>
+      <Route path="/login" element={<Login/>}/>
       <Route path="/pedido" element={<Pedido/>}/>
       <Route path="/perfil" element={<Perfil/>}/>
       <Route path="/restaurantes" element={<Restaurantes/>}/>
-      <Route path="/buscar" element={<Buscar/>}/>  
+     
    </Routes>
 </BrowserRouter> 
 )
