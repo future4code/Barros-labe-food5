@@ -14,8 +14,9 @@ const Login = () => {
           <input type="email" name="email" placeholder="email@email.com" />
           <label htmlFor="password"> Senha </label>
           <input type="password" name="password" placeholder="Mínimo 6 caracteres" />
-          <button>Entrar</button>
+          <button type="submit">Entrar</button>
         </form>
+        <button type="button"> Não possui cadastro? Clique aqui.</button>
       </Content>
     
       
