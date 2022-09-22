@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+<p id= "voltar"><img src="https://user-images.githubusercontent.com/98977257/169718703-27b27a45-0f16-4a38-9400-65d9ed932aef.png"/></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+<a href="#sobre">Sobre</a> |
+<a href="#orientacoes">Orientações</a> |
+<a href="#link">Link</a> |
+<a href="#imagens">Imagens</a> |
+<a href="#features">Features</a> |
+<a href="#tecnologias">Tecnologias</a> |
+<a href="#desenvolvedores">Desenvolvedores</a> |
+</p>
 
-## Available Scripts
+<h1 id="sobre">🍴 Projeto final do front-end: FutureEats</h1>
 
-In the project directory, you can run:
+<p>FutureEats é uma aplicação para mobile inspirada no aplicativo UberEats, uma plataforma de entrega de pedidos de comida, que conecta restaurantes e consumidores.</p>
 
-### `npm start`
+<h2 id="orientacoes">🚨 Orientações para acesso</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Realizar o login se já possui um cadastro;
+- Realizar o cadastro com dados pessoais e endereço, automaticamente será redirecionado para a página com a lista de restaurantes. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 id="link">🔗 Link surge: Link para visualização do site</h2>
 
-### `npm test`
+<a href="https://labenu-labefood2.surge.sh/">FutureEats</a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="imagens">📱 Imagens do site</h2>
 
-### `npm run build`
+![mockup - 2105 (4)](https://user-images.githubusercontent.com/98977257/169715748-729b6965-7e8b-48be-b60f-e9291bc91f46.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![mockup - 2105 (5)](https://user-images.githubusercontent.com/98977257/169719179-063fc092-cf64-4310-a4bb-bdc810348e74.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 id="features">✔️ Features</h2>
 
-### `npm run eject`
+👤 Login/Cadastro
+- [x] O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço
+- [x] Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara
+- [x] Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔎 Busca e seleção de restaurantes
+- [x] O usuário deve ser capaz de visualizar uma lista com todos os restaurantes
+- [x] O usuário deve ser capaz de buscar um restaurante por nome
+- [x] O usuário deve ser capaz de filtrar os restaurantes por categoria
+- [x] O usuário deve ser capaz de clicar no card de um restaurante para visualizar a tela com seu cardápio
+ 
+🗒️ Cardápio do restaurante:
+- [x] Informações do restaurante (foto, nome, tipo, tempo de entrega, frete e endereço);
+- [x] Visualizar os pratos do restaurante, divididos em categorias (principais, acompanhamento);
+- [x] Visualizar as informações de cada prato (foto, nome, descrição e preço);
+- [x] Adicionar pratos no carrinho e selecionar a quantidade de cada item.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🛒 Carrinho e finalizar compra:
+- [x] Visualizar a lista de itens que adicionou ao carrinho;
+- [x] Caso o usuário não tenha adicionado nenhum item, deverá ver uma mensagem de "Carrinho Vazio";
+- [x] Visualizar, no topo da tela, o endereço de entrega;
+- [x] Visualizar o preço total da compra, calculado corretamente de acordo com o preço e quantidade de cada item adicionado;
+- [x] Selecionar uma forma de pagamento dentre as opções de dinheiro e cartão de crédito;
+- [x] Concluir um pedido;
+- [x] Quando o usuário conclui um pedido, um card de "Pedido em andamento" é aberto no início da página onde se encontra as listas de restaurantes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✏️ Perfil, editar perfil e histórico de pedidos:
+- [x] Visualizar seus dados pessoais e endereço e editá-los. Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário recebe uma mensagem de erro clara;
+- [x] Visualizar o seu histórico de pedidos concluídos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ 
+ <h2 id="tecnologias">🛠 Tecnologias</h2>
+ 
+- ⚛️ [React](https://pt-br.reactjs.org/docs/getting-started.html)
 
-## Learn More
+- 💅 [Styled-Components](https://styled-components.com/docs)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 💎 [MUI - Material UI] (https://mui.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="desenvolvedores">👨‍💻 Desenvolvedores</h2>
+<table>         
+<td><a href="https://github.com/fmalcantara"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102332717?v=4" width="100px;" alt="Imagem profile Felipe Alcântara desenvolvedor"/><br /><sub><b>Felipe M. Alcântara </b></sub></a><br /> 
+<td><a href="https://github.com/JoaoPedroweb"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96431370?v=4" width="100px;" alt="Imagem profile João Pedro Santos desenvolvedora"/><br /><sub><b>João Pedro Santos </b></sub></a><br /> 
+<td><a href="https://github.com/gabriel-suela"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96388423?v=4" width="100px;" alt="Imagem profile Gabriel Suela desenvolvedor"/><br /><sub><b> Gabriel Suela </b></sub></a><br /> 
+</table>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#voltar">Voltar para o topo ⬆️</a>
