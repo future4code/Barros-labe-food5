@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
     :root {
-        --background: #f0f2f5;
+        --background: #ffff;
         --greyish: #b8b8b8;
         --mid-green: #5cb646;
     }
