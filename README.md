@@ -76,6 +76,7 @@
 <td><a href="https://github.com/fmalcantara"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102332717?v=4" width="100px;" alt="Imagem profile Felipe Alcântara desenvolvedor"/><br /><sub><b>Felipe M. Alcântara </b></sub></a><br /> 
 <td><a href="https://github.com/JoaoPedroweb"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96431370?v=4" width="100px;" alt="Imagem profile João Pedro Santos desenvolvedora"/><br /><sub><b>João Pedro Santos </b></sub></a><br /> 
 <td><a href="https://github.com/gabriel-suela"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96388423?v=4" width="100px;" alt="Imagem profile Gabriel Suela desenvolvedor"/><br /><sub><b> Gabriel Suela </b></sub></a><br /> 
+<td><a href="https://github.com/kayoceshar"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78767807?v=4" width="100px;" alt="Imagem profile Kayo Céshar desenvolvedor"/><br /><sub><b> Kayo Céshar </b></sub></a><br /> 
 </table>
 
 <a href="#voltar">Voltar para o topo ⬆️</a>
