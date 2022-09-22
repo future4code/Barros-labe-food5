@@ -32,11 +32,11 @@
 
 <h2 id="features">✔️ Features</h2>
 
-👤 Login/Cadastro ✔️
-🔎 Busca e seleção de restaurantes ✔️
-🗒️ Cardápio do restaurante ✔️
-🛒 Carrinho e finalizar compra ✔️
-✏️ Perfil, editar perfil e histórico de pedidos ✔️
+<p>👤 Login/Cadastro ✔️</p>
+<p>🔎 Busca e seleção de restaurantes ✔️</p>
+<p>🗒️ Cardápio do restaurante ✔️</p>
+<p>🛒 Carrinho e finalizar compra ✔️</p>
+<p>✏️ Perfil, editar perfil e histórico de pedidos ✔️</p>
 
 
  
