@@ -21,7 +21,7 @@
 
 <h2 id="link">🔗 Link surge: Link para visualização do site</h2>
 
-<a href="https://labenu-labefood2.surge.sh/">FutureEats</a>
+<a href="#">FutureEats</a>
 
 <h2 id="imagens">📱 Imagens do site</h2>
 
@@ -33,34 +33,34 @@
 <h2 id="features">✔️ Features</h2>
 
 👤 Login/Cadastro
-- [x] O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço
-- [x] Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara
-- [x] Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes
+- [] O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço
+- [] Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara
+- [] Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes
 
 🔎 Busca e seleção de restaurantes
-- [x] O usuário deve ser capaz de visualizar uma lista com todos os restaurantes
-- [x] O usuário deve ser capaz de buscar um restaurante por nome
-- [x] O usuário deve ser capaz de filtrar os restaurantes por categoria
-- [x] O usuário deve ser capaz de clicar no card de um restaurante para visualizar a tela com seu cardápio
+- [] O usuário deve ser capaz de visualizar uma lista com todos os restaurantes
+- [] O usuário deve ser capaz de buscar um restaurante por nome
+- [] O usuário deve ser capaz de filtrar os restaurantes por categoria
+- [] O usuário deve ser capaz de clicar no card de um restaurante para visualizar a tela com seu cardápio
  
 🗒️ Cardápio do restaurante:
-- [x] Informações do restaurante (foto, nome, tipo, tempo de entrega, frete e endereço);
-- [x] Visualizar os pratos do restaurante, divididos em categorias (principais, acompanhamento);
-- [x] Visualizar as informações de cada prato (foto, nome, descrição e preço);
-- [x] Adicionar pratos no carrinho e selecionar a quantidade de cada item.
+- [] Informações do restaurante (foto, nome, tipo, tempo de entrega, frete e endereço);
+- [] Visualizar os pratos do restaurante, divididos em categorias (principais, acompanhamento);
+- [] Visualizar as informações de cada prato (foto, nome, descrição e preço);
+- [] Adicionar pratos no carrinho e selecionar a quantidade de cada item.
 
 🛒 Carrinho e finalizar compra:
-- [x] Visualizar a lista de itens que adicionou ao carrinho;
-- [x] Caso o usuário não tenha adicionado nenhum item, deverá ver uma mensagem de "Carrinho Vazio";
-- [x] Visualizar, no topo da tela, o endereço de entrega;
-- [x] Visualizar o preço total da compra, calculado corretamente de acordo com o preço e quantidade de cada item adicionado;
-- [x] Selecionar uma forma de pagamento dentre as opções de dinheiro e cartão de crédito;
-- [x] Concluir um pedido;
-- [x] Quando o usuário conclui um pedido, um card de "Pedido em andamento" é aberto no início da página onde se encontra as listas de restaurantes.
+- [] Visualizar a lista de itens que adicionou ao carrinho;
+- [] Caso o usuário não tenha adicionado nenhum item, deverá ver uma mensagem de "Carrinho Vazio";
+- [] Visualizar, no topo da tela, o endereço de entrega;
+- [] Visualizar o preço total da compra, calculado corretamente de acordo com o preço e quantidade de cada item adicionado;
+- [] Selecionar uma forma de pagamento dentre as opções de dinheiro e cartão de crédito;
+- [] Concluir um pedido;
+- [] Quando o usuário conclui um pedido, um card de "Pedido em andamento" é aberto no início da página onde se encontra as listas de restaurantes.
 
 ✏️ Perfil, editar perfil e histórico de pedidos:
-- [x] Visualizar seus dados pessoais e endereço e editá-los. Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário recebe uma mensagem de erro clara;
-- [x] Visualizar o seu histórico de pedidos concluídos.
+- [] Visualizar seus dados pessoais e endereço e editá-los. Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário recebe uma mensagem de erro clara;
+- [] Visualizar o seu histórico de pedidos concluídos.
 
  
  <h2 id="tecnologias">🛠 Tecnologias</h2>
@@ -69,7 +69,7 @@
 
 - 💅 [Styled-Components](https://styled-components.com/docs)
 
-- 💎 [MUI - Material UI] (https://mui.com/)
+- 💎 [MUI - Material UI ou Chakra UI] 
 
 <h2 id="desenvolvedores">👨‍💻 Desenvolvedores</h2>
 <table>         
