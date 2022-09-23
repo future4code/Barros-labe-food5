@@ -47,5 +47,6 @@ width: 328px;
     filter: brightness(0.9);
   }
 } 
+}
 `;
 
