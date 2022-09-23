@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
- 
   width: 100%;
   height: 100%;
-  
 `;
 
 export const Content = styled.div`
@@ -34,19 +32,18 @@ export const Content = styled.div`
     }
 
     button {
-width: 328px;
-  height: 42px;
-  padding: 12px 16px;
-  border-radius: 2px;
-  background-color: var(--mid-green);
-  border: 0;
-  margin-top: 1rem;
-  transition: filter 0.2s;
+      width: 328px;
+      height: 42px;
+      padding: 12px 16px;
+      border-radius: 2px;
+      background-color: var(--mid-green);
+      border: 0;
+      margin-top: 1rem;
+      transition: filter 0.2s;
 
-  &:hover {
-    filter: brightness(0.9);
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
   }
-} 
-}
 `;
-
