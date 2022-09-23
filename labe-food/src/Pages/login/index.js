@@ -1,12 +1,14 @@
 import React from "react";
 import { Container, FormContainer } from "./style";
+import Logo from "../../img/Logo.png";
+
 const Login = () => {
   return (
     <Container>
-
-
+    
      <FormContainer>
-
+     <img src={Logo} alt="logo"/>
+     <strong>Entrar</strong>
         <form>
           
           <labe> E-mail</labe>
