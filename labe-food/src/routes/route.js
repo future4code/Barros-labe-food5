@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "../pages/login/index"
-import Home from "../pages/home/index"
-import Pedido from "../pages/pedidoemandamento/index"
-import Perfil from "../pages/perfil/index"
-import Restaurantes from "../pages/perfil/index"
-import Buscar from "../pages/search/index"
+import Login from "../Pages/login/index"
+import Home from "../Pages/home/index"
+import Pedido from "../Pages/pedidoemandamento/index"
+import Perfil from "../Pages/perfil/index"
+import Restaurantes from "../Pages/perfil/index"
+import Buscar from "../Pages/search/index"
 
 const Rotas = ()=> {
       return (  

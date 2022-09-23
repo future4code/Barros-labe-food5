@@ -1,8 +1,24 @@
 import React from "react";
-
+import { Container, FormContainer } from "./style";
 const Login = () => {
   return (
-     <h1>Login</h1>
+    <Container>
+
+
+     <FormContainer>
+
+        <form>
+          
+          <labe> E-mail</labe>
+          <input/>
+
+          <labe> Senha</labe>
+          <input/>
+
+          <button> Entrar </button>
+        </form>
+     </FormContainer>
+    </Container>
   );
 
 }
