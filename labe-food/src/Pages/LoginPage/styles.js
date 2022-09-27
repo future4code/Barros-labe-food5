@@ -13,9 +13,14 @@ export const Content = styled.div`
   max-width: 360px;
   max-height: 640px;
   margin: 0 auto;
+  
+
+  
 
   img {
     width: 8rem;
+    margin-top: 40px;
+    padding: 10px;
   }
 
   form {
@@ -40,6 +45,9 @@ export const Content = styled.div`
       border: 0;
       margin-top: 1rem;
       transition: filter 0.2s;
+
+      
+    
 
       &:hover {
         filter: brightness(0.9);
