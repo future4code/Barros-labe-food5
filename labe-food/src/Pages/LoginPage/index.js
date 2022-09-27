@@ -19,9 +19,10 @@ const Login = () => {
       console.log(response.data)
       localStorage.setItem('tokenLogin', response.data.tokenLogin)
       goToHome(navigate)
+      alert("Usuário logado com sucesso")
     })
     .catch((error) => console.log(error.message))
-
+    alert("Usuário ou senha incorreta")
   }
 
   return (
