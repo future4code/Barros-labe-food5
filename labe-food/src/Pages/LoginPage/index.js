@@ -5,7 +5,7 @@ import axios from "axios";
 import { BASE_URL } from "../../constants";
 import { useForm } from "../../hook/useForm";
 import { useNavigate } from "react-router-dom";
-import { goToHome } from "../../routes/cordinator";
+import { goToHome, goToSubscribe } from "../../routes/cordinator";
    
 const Login = () => {
   const [form, onChange] = useForm ({email:'', password:''})
@@ -35,7 +35,7 @@ const Login = () => {
         <form onSubmit={fazerLogin}>
           <input 
             type="email"
-            // value={form.email}
+            //value={form.email}
             onChange={onChange}
             name="email" 
             placeholder="email@email.com" 
@@ -44,7 +44,7 @@ const Login = () => {
             
           <input 
             type="password" 
-            // value={form.password}
+            //value={form.password}
             name="password" 
             placeholder="Mínimo 6 caracteres" 
             onChange={onChange}
@@ -53,6 +53,7 @@ const Login = () => {
           
           <button>Entrar</button>
         </form>
+        <button onClick={() => {goToSubscribe(navigate)}}>Não possui cadastro? Clique aqui</button>
       </Content>
     
       
