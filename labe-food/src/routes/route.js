@@ -5,6 +5,7 @@ import Home from "../Pages/HomePage";
 import Pedido from "../Pages/PedidoEmAndamentoPage";
 import Perfil from "../Pages/PerfilPage";
 import Restaurantes from "../Pages/RestaurantesPage";
+import Cadastro from '../Pages/CadastroPage'
 
 const Rotas = ()=> {
       return (  
@@ -15,6 +16,7 @@ const Rotas = ()=> {
       <Route path="/pedido" element={<Pedido/>}/>
       <Route path="/perfil" element={<Perfil/>}/>
       <Route path="/restaurantes" element={<Restaurantes/>}/>
+      <Route path="/cadastro" element={<Cadastro/>}/>
      
    </Routes>
 </BrowserRouter> 
