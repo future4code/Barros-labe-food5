@@ -4,7 +4,7 @@ import logoImg from "../../assets/logo-future-eats-invert@2x.png";
 import { useForm } from "../../hook/useForm";
 import axios from "axios";
 import { BASE_URL } from "../../constants";
-import {IoIosArrowBack} from 'react-icons/io'
+import {IoIosArrowBack} from 'react-icons/io';
 import { useNavigate } from "react-router-dom";
 import { goToLastPage } from "../../routes/cordinator";
 
