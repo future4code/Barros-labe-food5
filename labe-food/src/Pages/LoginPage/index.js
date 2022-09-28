@@ -17,7 +17,7 @@ const Login = () => {
   axios.post(`${BASE_URL}/login`, form)
     .then((response)=> {
       console.log(response.data)
-      localStorage.setItem('tokenLogin', response.data.tokenLogin)
+      localStorage.setItem('token', response.data.token)
       goToHome(navigate)
       alert("Usuário logado com sucesso")
     })
@@ -35,7 +35,7 @@ const Login = () => {
         <form onSubmit={fazerLogin}>
           <input 
             type="email"
-            // value={form.email}
+            value={form.email}
             onChange={onChange}
             name="email" 
             placeholder="email@email.com" 
@@ -44,7 +44,7 @@ const Login = () => {
             
           <input 
             type="password" 
-            // value={form.password}
+            value={form.password}
             name="password" 
             placeholder="Mínimo 6 caracteres" 
             onChange={onChange}
