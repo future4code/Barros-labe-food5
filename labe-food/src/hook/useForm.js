@@ -1,7 +1,7 @@
 import {useState} from "react"
 
-export function useForm(InitialState){
-  const [form, setForm] = useState(InitialState)
+export function useForm(initialState){
+  const [form, setForm] = useState(initialState)
 
   const onChange = (event) => {
     const {name, value} = event.target
@@ -9,7 +9,7 @@ export function useForm(InitialState){
   }
 
   const clear = () => {
-    setForm(InitialState)
+    setForm(initialState)
   }
     return [form, onChange, clear]
 }
